@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "Figtree", sans-serif;
+  }
+
+
+
+body {
+    background-color: #F4D04E;
+    height: 100vh;
+    width: 100vw;
+   }
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 384px;
+    height: 522px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 8px 8px #111111;
+}
+
+
+
+.card {
+    padding: 24px;
+
+}
+
+.action-wrapper {
+    padding-top: 24px;
+}
+.button {
+    border-radius: 4px;
+    border: none;
+    width: 82px;
+    height: 29px;
+    background-color: #F4D04E;
+    padding:4px 12px 4px 12px;
+    cursor: pointer;
+    font-weight: 800;
+    transition: 0.6s;
+}
+.button:hover {
+    background-color: hsla(47, 89%, 63%, 0.6);
+    transition: 1s;
+}
+
+.texst-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+}
+.date {
+    padding-top: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #111111;
+}
+
+.card-name {
+    padding-top: 12px;
+    font-weight: 800;
+    color: #F4D04E;
+    line-height: 36px;
+    font-size: 24px;
+}
+.main-text {
+padding-top: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6B6B6B;
+    line-height: 24px;
+}
+.creator {
+    padding-top: 24px;
+    width: 129px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.creator-icon {
+    width: 32px;
+    height: 32px;
+}
+.creator-name {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+    justify-content: center;
+}
+
+/*<style>*/
+/* .attribution { font-size: 11px; text-align: center; }*/
+/*.attribution a { color: hsl(228, 45%, 44%); }*/
+/*</style>*/
